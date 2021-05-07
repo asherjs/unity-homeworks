@@ -8,11 +8,12 @@ public class LightController : MonoBehaviour
 
     [HideInInspector]
     public float time;
-
+    
     [HideInInspector]
     public DayNightController dayNightController;
     [HideInInspector]
     public GameObject sun;
+
 
     void Start()
     {
@@ -22,6 +23,7 @@ public class LightController : MonoBehaviour
         lights = GameObject.FindGameObjectsWithTag("StreetLight");
 
     }
+
 
     void Update()
     {
@@ -49,3 +51,4 @@ public class LightController : MonoBehaviour
         }
     }
 }
+
