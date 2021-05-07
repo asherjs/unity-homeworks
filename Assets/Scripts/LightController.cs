@@ -26,6 +26,7 @@ public class LightController : MonoBehaviour
     void Update()
     {
         time = dayNightController.time;
+        Debug.Log(time);
 
         foreach (GameObject light in lights)
         {
