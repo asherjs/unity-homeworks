@@ -16,6 +16,6 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        sceneObject.Rotate(new Vector3(speed * Time.deltaTime, 0f, speed * Time.deltaTime));
+        transform.Rotate(new Vector3(0f, 1f * Time.deltaTime, 0f));
     }
 }
